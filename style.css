@@ -129,3 +129,87 @@ footer {
 .project-card a:hover {
     background-color: #2980b9;
 }
+
+/* Credentials List Styling */
+.credential-list {
+    list-style: none;
+    padding: 0;
+}
+
+.credential-list li {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.credential-list li:last-child {
+    border-bottom: none;
+}
+
+.credential-list strong {
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+/* Contact Page Styles */
+.contact-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+.contact-list li {
+    margin-bottom: 15px;
+    background: #f9f9f9; /* Light grey box for each item */
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 5px solid #3498db;
+}
+
+.contact-list a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+/* Base Button Styling */
+.resume-btn {
+    display: inline-flex;       
+    align-items: center;
+    justify-content: center;
+    padding: 12px 25px;         
+    color: white !important;    
+    text-decoration: none;
+    border-radius: 50px;        
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;  
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    margin: 5px;                
+    border: none;
+}
+
+/* Hover Animation */
+.resume-btn:hover {
+    transform: translateY(-3px);            
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2); 
+    opacity: 0.9;                           
+}
+
+/* Color Classes */
+.btn-github { background-color: #333; }
+.btn-linkedin { background-color: #0077b5; }
+.btn-resume { background-color: #3498db; } 
+.btn-transcript { background-color: #27ae60; } 
+
+/* Button Group Layout */
+.button-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
