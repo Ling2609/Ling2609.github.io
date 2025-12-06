@@ -11,7 +11,7 @@ Welcome to the source code of my personal portfolio website! This site showcases
 
 ## 🚀 Key Sections
 1.  **Projects:** Detailed case studies of my work (FocusFlow App, Hospital System).
-2.  **Achievements:** A collection of my hackathon wins, certifications, and leadership roles.
+2.  **Achievements:** A showcase of my certifications, hackathon participation, and leadership initiatives.
 3.  **Connect:** A central hub for my professional profiles and downloadable credentials.
 
 ## 📄 License
