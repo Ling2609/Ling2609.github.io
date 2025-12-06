@@ -214,3 +214,23 @@ footer {
     flex-wrap: wrap;
     margin-top: 15px;
 }
+
+/* Clean Text Link Styling */
+.view-link {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 0.95rem;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 2px 5px; 
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+/* Hover Effect */
+.view-link:hover {
+    text-decoration: underline;
+    background-color: #f0f8ff; 
+    color: #2980b9;
+}
