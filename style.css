@@ -236,7 +236,6 @@ footer {
 } */
 
 /* Vertical List Layout */
-
 .credential-list {
     display: flex;             
     flex-direction: column;    
